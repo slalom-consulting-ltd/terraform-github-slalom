@@ -10,6 +10,7 @@ Github has a detailed rest api, and luckily you already have the access set-up!
 curl -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/orgs/$GITHUB_ORGANISATION/teams
 ```
 
+
 This gives you a handy json object.
 
 ```json
@@ -32,3 +33,4 @@ This gives you a handy json object.
 
 terraform import github_membership.member hashicorp:someuser
 terraform import module.github.github_membership.member slalom-consulting-ltd:jameswoolfenden
+ terraform import github_team.team  3288946
