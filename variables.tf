@@ -18,3 +18,7 @@ variable "team_name" {
 variable "users" {
   type = "list"
 }
+
+variable "users-te" {
+  type = "list"
+}

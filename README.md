@@ -7,7 +7,11 @@ A repository for managing the git organisation of Slalom London.
 Github has a detailed rest api, and luckily you already have the access set-up!
 
 ```bash
-curl -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/orgs/$GITHUB_ORGANISATION/teams
+curl -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/orgs/$GITHUB_ORGANIZATION/teams
+```
+
+```powershell
+echo "Authorization: token $env:GITHUB_TOKEN" "https://api.github.com/orgs/$env:GITHUB_ORGANIZATION/teams"
 ```
 
 This gives you a handy json object.
