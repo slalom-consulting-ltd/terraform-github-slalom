@@ -1,24 +1,24 @@
 variable "common_tags" {
   description = "This is to help you add tags to your cloud objects"
-  type        = "map"
+  type        = map
 }
 
-variable "team_privacy" {
+variable team_privacy {
   type = string
 }
 
-variable "team_description" {
+variable team_description {
   type = string
 }
 
-variable "team_name" {
+variable team_name {
   type = string
 }
 
-variable "users" {
-  type = "list"
+variable users {
+  type = list
 }
 
-variable "users-te" {
-  type = "list"
+variable users-te {
+  type = list
 }
