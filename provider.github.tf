@@ -1,4 +1,4 @@
 # Configure the GitHub Provider
-provider "github" {
+provider github {
   version = "2.1"
 }
