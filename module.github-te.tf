@@ -3,6 +3,6 @@ module github-te {
   common_tags      = var.common_tags
   team_name        = "TE"
   team_description = "Software Engineering"
-  team_privacy     = "CLOSED"
+  team_privacy     = "closed"
   users            = var.users-te
 }
